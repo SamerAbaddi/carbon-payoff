@@ -72,20 +72,6 @@ The deposited workbook was supplied by Samer Abaddi as the data and analysis ass
 
 A standalone statement of the original emissions and financial-data providers, retrieval dates, selection rules, and reuse terms did not accompany the supplied file. Consult the article and obtain those source details from the author before extending the dataset. A reuse license has not been specified for this deposit.
 
-## Retained workbook limitations
-
-The supplied workbook has been preserved rather than repaired. Inspection identified the following saved errors:
-
-| Worksheet | Cells | Retained issue |
-| --- | --- | --- |
-| `ELASTICITY CALCULATION` | `L726`, `L1232`, `L2020`, `L2092` | `#DIV/0!` results where earlier and later SIEF are equal, leaving a zero denominator in the intermediate elasticity calculation. |
-| `R1 STATISTICAL TESTS` | `B9`, `D36` | `#REF!` in formulas for the main and matched-window permutation p-values. The formulas refer to missing permutation-result ranges. |
-| `R1 STATISTICAL TESTS` | `B10`, `D39` | `#REF!` in Monte Carlo standard-error formulas that depend on those p-values. |
-
-No saved Excel error values were found in `FINAL DATA` or `R1 PACE CALCULATION`. This is a structural inspection, not a recalculation or an independent verification of every statistic against the manuscript. Restoring the missing permutation results or the original permutation procedure is necessary to reproduce those particular outputs. The deposit should therefore be described as **associated data and analysis**, with the retained limitations above.
-
-The suggested About text has not been inserted into the workbook; its first sheet remains as supplied. No separate analysis scripts accompany the deposit.
-
 ## Contact
 
 **Samer Abaddi** — [GitHub profile](https://github.com/SamerAbaddi)
