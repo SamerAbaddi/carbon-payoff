@@ -19,7 +19,7 @@ The workbook contains **17 worksheets**. Its raw-data sheet holds **32,758 compa
 
 | File | Contents |
 | --- | --- |
-| [`data/data_and_analysis.xlsx`](data/data_and_analysis.xlsx) | Original Excel workbook, renamed for a stable repository path. Its contents and formulas are preserved. |
+| [`DATA & ANALYSIS/Carbon Payoff Data and Analysis.xlsx`](DATA%20%26%20ANALYSIS/Carbon%20Payoff%20Data%20and%20Analysis.xlsx) | Original Excel workbook. Its contents and formulas are preserved. |
 | [`CITATION.cff`](CITATION.cff) | Machine-readable dataset metadata and the associated article as the preferred citation. |
 | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) | Variable definitions, units, calculation conventions, and missing-value guidance. |
 | [`docs/ABOUT_THIS_FILE.txt`](docs/ABOUT_THIS_FILE.txt) | Suggested text for the workbook's first worksheet, `ABOUT THIS FILE`. |
@@ -51,7 +51,7 @@ Worksheet names below match the supplied file, including the spelling of `QUDRAN
 
 ## Using the workbook
 
-1. Download `data/data_and_analysis.xlsx` and open it in a recent version of Microsoft Excel. Some formulas use functions such as `TEXTBEFORE`, `RANK.AVG`, and `QUARTILE.INC`; support may vary in other spreadsheet applications.
+1. Download `DATA & ANALYSIS/Carbon Payoff Data and Analysis.xlsx` and open it in a recent version of Microsoft Excel. Some formulas use functions such as `TEXTBEFORE`, `RANK.AVG`, and `QUARTILE.INC`; support may vary in other spreadsheet applications.
 2. Start with `FINAL DATA` for the retained firm-level elasticity dataset, or `R1 PACE CALCULATION` for the 300-firm pace analysis. Use `R1 PEER COMPARISON` for the 114-firm emissions-reducing subset.
 3. Consult the data dictionary before converting units or importing the sheets. Several emissions columns contain text with unit suffixes, and `FINAL DATA` contains blank spacer rows.
 4. Treat blanks, the em dash (`—`), and `Information Not Available` as missing information rather than numerical zero. Keep the two Scope 2 reporting bases separate.
