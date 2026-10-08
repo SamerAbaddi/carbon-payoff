@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these data or analyses, cite the associated article and identify the repository version or commit used."
+type: dataset
+title: "Carbon Payoff: Associated Data and Analysis for When Does Decarbonization Pay?"
+authors:
+  - family-names: "Abaddi"
+    given-names: "Samer"
+abstract: "Corporate emissions and ROIC data, elasticity calculations, transition-quadrant classifications, and decarbonization-pace analyses accompanying the article accepted in Carbon Management. The README documents retained workbook limitations."
+keywords:
+  - decarbonization
+  - corporate greenhouse gas emissions
+  - return on invested capital
+  - climate information capabilities
+  - corporate transition
+# Accepted for publication on 8 October 2026; final journal metadata are pending.
+preferred-citation:
+  type: article
+  title: "When Does Decarbonization Pay? Mapping Elasticity and Climate Information Capabilities in the Corporate Transition"
+  authors:
+    - family-names: "Abaddi"
+      given-names: "Samer"
+  journal: "Carbon Management"
+  year: 2026 # Acceptance year; update when final publication metadata are available.
+  doi: "10.1080/17583004.2026.2746370"
+  url: "https://doi.org/10.1080/17583004.2026.2746370"
