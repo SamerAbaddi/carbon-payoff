@@ -1,0 +1,50 @@
+ABOUT THIS FILE
+Associated Research Data and Analysis
+
+ARTICLE
+When Does Decarbonization Pay? Mapping Elasticity and Climate Information Capabilities in the Corporate Transition
+
+Author: Samer Abaddi
+Journal: Carbon Management
+Status: Accepted for publication on 8 October 2026
+Article DOI: 10.1080/17583004.2026.2746370
+Article link: https://doi.org/10.1080/17583004.2026.2746370
+
+PURPOSE AND COVERAGE
+This workbook contains the corporate emissions and financial data, calculations, and analysis sheets associated with the article. It documents decarbonization–ROIC elasticity, transition quadrants, and decarbonization pace. The raw-data sheet contains 32,758 company-year records for 2018–2023. The final dataset contains 300 firms across 35 jurisdictions. The pace comparison includes 114 observed emissions-reducing firms.
+
+WORKSHEET GUIDE
+ABOUT THIS FILE: Article details, workbook overview, citation, and usage notes.
+RAW DATA: Original company-year emissions records.
+CLEANING PHASE I: First retained data-cleaning snapshot.
+FINANCIALS: Emissions, Scope Integrated Emissions Footprint (SIEF), and ROIC.
+ELASTICITY CALCULATION: Decarbonization–ROIC elasticity calculations.
+CLEANING PHASE II: Further sample preparation and elapsed-year calculations.
+FINAL DATA: Final firm-level elasticity dataset.
+DESCRIPTIVES: Summary statistics and positive/negative elasticity counts.
+PIVOT ANALYSIS: Pivot summaries, including elasticity by jurisdiction.
+QUDRANT ANALYSIS: Emissions and ROIC changes, transition quadrants, and frequencies.
+COMPANY SCATTER: Company-level data used for emissions/ROIC plots.
+R1 PACE CALCULATION: Annualized emissions-reduction pace and ROIC changes.
+R1 PACE TABLE: Summaries by pace group and supporting intervals.
+R1 PEER COMPARISON: Pace groups and rankings for reducing firms.
+R1 STATISTICAL TESTS: Association tests, group comparisons, and sensitivity statistics.
+R1 PACE FIGURE: Data used for the annualized pace/ROIC figure.
+R1 MATCHED WINDOW: Common-window and unannualized-change sensitivity data.
+
+UNITS AND DATA CONVENTIONS
+GHG emissions and SIEF are expressed in tonnes of CO2 equivalent (tCO2e). The inspected SIEF formulas sum Scope 1, market-based Scope 2, and Scope 3. ROIC is stored as a fraction in the financial and earlier/later ROIC fields. Pace is expressed in percent per year; annualized ROIC change is expressed in percentage points per year. Blank cells, the em dash, and "Information Not Available" indicate missing information and must not be interpreted as zero.
+
+RETAINED LIMITATIONS
+The supplied file retains four #DIV/0! cells in ELASTICITY CALCULATION and four #REF! cells affecting permutation-test p-values and their Monte Carlo standard errors in R1 STATISTICAL TESTS. Consult the repository README for exact cells and replication limitations.
+
+CITATION
+Abaddi, S. (in press). When does decarbonization pay? Mapping elasticity and climate information capabilities in the corporate transition. Carbon Management. https://doi.org/10.1080/17583004.2026.2746370
+
+When using the workbook, cite the article and identify the repository version or commit used. The article DOI is not a separate dataset DOI. Final publication details will be added when available.
+
+AUTHOR
+Samer Abaddi
+GitHub: https://github.com/SamerAbaddi
+
+Reuse terms have not been specified for this deposit. See the article and repository documentation for source information and methodology.
